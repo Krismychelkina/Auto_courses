@@ -1,2 +1,2 @@
 # Auto_courses
-Step 7
+Step 9 Resolve conflict
