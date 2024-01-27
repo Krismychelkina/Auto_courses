@@ -10,7 +10,7 @@ fs.moveSync('./Folder1/File1.txt','./Folder2/File1.txt');
 
 fs.ensureDirSync( './Folder3');
 
-fs.copySync('./Folder2/File1.txt', './Folder3/File1copy.txt')
+fs.copySync('./Folder2/File1.txt', './Folder3/File1copy.txt');
 
 fs.removeSync('./Folder2/File1.txt');
 fs.removeSync('./Folder3/File1copy.txt');
