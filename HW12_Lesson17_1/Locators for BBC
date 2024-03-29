@@ -1,0 +1,41 @@
+1.Search
+
+//*[@icon="search" and @class="sc-2c06e71a-0 fsMljb"]
+svg[icon="search"][class="sc-2c06e71a-0 fsMljb"]
+
+2. Sign in
+
+//*[@class="sc-1fd23c08-2 sc-1fd23c08-5 ddKyUb eJTanI"]
+
+3. Categories
+
+//nav[@class="sc-5c5fdd55-1 inUHjM"]
+nav.sc-5c5fdd55-1.inUHjM
+
+4. Big picture
+
+//img[@alt="A court sketch of Sam Bankman-Fried at his sentencing"]
+img[alt="A court sketch of Sam Bankman-Fried at his sentencing"]
+
+5. 2 hrs ago
+
+//span[@data-testid="card-metadata-lastupdated" and contains(text(), "2 hrs ago")]
+
+6. 5 hrs ago
+
+//span[@data-testid="card-metadata-lastupdated" and contains(text(), "5 hrs ago")]
+
+7. News lable
+
+//*[@category="logo" and @icon="news-tag"]
+svg[category="logo"][icon="news-tag"]
+
+8. News block
+
+//div[@data-testid="card-text-wrapper"]
+div[data-testid="card-text-wrapper"]
+
+9. Header 4
+
+//h4[@data-testid="card-related-headline"]
+h4[data-testid="card-related-headline"]
