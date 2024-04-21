@@ -1,5 +1,3 @@
-const { Locator } = require("playwright");
-
 class Search {
   constructor(page) {
     this.page = page;

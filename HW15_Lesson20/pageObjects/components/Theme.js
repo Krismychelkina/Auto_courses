@@ -1,5 +1,3 @@
-const { Locator } = require("playwright");
-
 class Theme {
   constructor(page) {
     this.page = page;
